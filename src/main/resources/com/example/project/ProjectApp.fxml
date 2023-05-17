@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#spaceKeyPressed" prefHeight="638.0" prefWidth="558.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.ProjectAppController">
+   <children>
+      <Rectangle fx:id="bird" arcHeight="5.0" arcWidth="5.0" fill="#ff6f00" height="63.0" layoutX="85.0" layoutY="288.0" stroke="#ff6f00" strokeType="INSIDE" width="63.0" />
+      <Text fx:id="scoreText" layoutX="398.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="RIGHT" wrappingWidth="123.13671875">
+         <font>
+            <Font name="Comic Sans MS" size="53.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
